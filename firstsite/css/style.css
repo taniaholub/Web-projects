@@ -1,10 +1,10 @@
 body {
-    background-color: #ab8b6a; 
+    background-color: #ab8b6a;
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
 }
-    
+
 header {
     background-color: #2b1a0bc9;
     color: #fff;
@@ -44,7 +44,7 @@ nav a {
 .logo img {/* параметри логотипу */
     display: block;
     margin: 0 auto;
-    width: 150px; 
+    width: 150px;
 }
 
 main {
@@ -52,8 +52,8 @@ main {
 }
 
 .hero {
-    background-color: #b7946f; 
-    background-image: url('https://s1.ticketm.net/dam/a/16b/54be164f-49f9-4fc2-b0a9-5e7d3833f16b_1439751_TABLET_LANDSCAPE_LARGE_16_9.jpg'); 
+    background-color: #b7946f;
+    background-image: url('https://s1.ticketm.net/dam/a/16b/54be164f-49f9-4fc2-b0a9-5e7d3833f16b_1439751_TABLET_LANDSCAPE_LARGE_16_9.jpg');
     background-size: cover;
     background-position: center;
     color: #fff;
@@ -66,11 +66,15 @@ h1 {
 }
 
 h2 {
-    font-size: 20px;
-    margin-bottom: 50px;
-    background-color: #2b1a0bc9;
-    color: #fff;
-    padding: 2px 0;
+    font-size: 20px; /* Розмір шрифту */
+    color: #2b1a0b; /* Колір тексту */
+    background-color: #fff8f2; /* Колір фону */
+    padding: 10px 20px; /* Відступи в тексті */
+    display: inline-block; /* Встановлення блока */
+    border: 1px solid #e6e6e6; /* Границя */
+    border-radius: 4px; /* Закруглені кути */
+    margin-bottom: 20px; /* Відступ вниз */
+    text-align: left; /* Додавання вирівнювання тексту */
 }
 
 p {
@@ -85,10 +89,22 @@ footer {
     padding: 10px 0;
 }
 
+
+/* Стилі для блока "Biography" */
 #biography {
-    color: #fff;/* колір тексту */
+    color: #fff; /* колір тексту */
 }
 
+li {
+    margin-bottom: 15px;
+    border-bottom: 1px solid #ddd; /* Додавання бордеру між пунктами */
+    padding-bottom: 15px; /* Відступ знизу для кращого вигляду */
+}
+
+li q {
+    font-style: italic;
+    text-align: right;
+}
 
 
 /* Стилі для блока "Music" */
@@ -102,8 +118,7 @@ footer {
 .music-item {
     flex-basis: calc(33.33% - 20px); /* Розмір одного блоку музики */
     margin-bottom: 20px;
-    background-color: #f8f8f8; /* Фон блоку музики */
-    padding: 20px;
+    padding: 10px;
     text-align: center;
 }
 
