@@ -151,3 +151,38 @@ li q {
 .music-item a:hover {
     background-color: #333; /* Колір кнопки при наведенні */
 }
+
+
+/* Стилі для блока "Photo" */
+
+.photo-style img{
+    max-width: 60%;
+    height: auto;
+}
+
+/* Стилі для блока "Awards" */
+#awards table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #c1a17f; /* Колір фону таблиці (такий же, як і фон блоку) */
+}
+
+#awards th, #awards td {
+    border: 1px solid #000; /* Чорні бордюри для комірок */
+    padding: 8px;
+    text-align: left;
+}
+
+#awards th {
+    font-weight: bold;
+}
+
+#awards tbody tr:nth-child(even) {
+    background-color: transparent; /* Залиште парні рядки без фонового кольору */
+}
+
+#awards tbody tr:hover {
+    background-color: transparent; /* Залиште ефект наведення без фонового кольору */
+}
+
