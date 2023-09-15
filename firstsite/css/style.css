@@ -1,0 +1,138 @@
+body {
+    background-color: #ab8b6a; 
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+    
+header {
+    background-color: #2b1a0bc9;
+    color: #fff;
+    padding: 8px 0;
+}
+
+title {
+    display: flex;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav .nav-item {
+    font-family: 'Calibri';
+    margin-right: 140px; /* відстань від кнопок */
+    padding: 10px 20px; /* розмір background */
+}
+
+nav .nav-item a {
+    font-size: 18px; /* Збільшення розміру шрифту для тексту кнопок */
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.logo img {/* параметри логотипу */
+    display: block;
+    margin: 0 auto;
+    width: 150px; 
+}
+
+main {
+    text-align: center;
+}
+
+.hero {
+    background-color: #b7946f; 
+    background-image: url('https://s1.ticketm.net/dam/a/16b/54be164f-49f9-4fc2-b0a9-5e7d3833f16b_1439751_TABLET_LANDSCAPE_LARGE_16_9.jpg'); 
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding: 225px 0;
+}
+
+h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 20px;
+    margin-bottom: 50px;
+    background-color: #2b1a0bc9;
+    color: #fff;
+    padding: 2px 0;
+}
+
+p {
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+
+footer {
+    background-color: #2b1a0bc9;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+#biography {
+    color: #fff;/* колір тексту */
+}
+
+
+
+/* Стилі для блока "Music" */
+.music-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.music-item {
+    flex-basis: calc(33.33% - 20px); /* Розмір одного блоку музики */
+    margin-bottom: 20px;
+    background-color: #f8f8f8; /* Фон блоку музики */
+    padding: 20px;
+    text-align: center;
+}
+
+.music-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+.music-item h3 {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.music-item p {
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.music-item a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #000; /* Колір кнопки */
+    color: #fff;
+    text-decoration: none;
+    margin-top: 10px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.music-item a:hover {
+    background-color: #333; /* Колір кнопки при наведенні */
+}
