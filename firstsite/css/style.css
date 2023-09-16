@@ -162,14 +162,18 @@ li q {
 
 /* Стилі для блока "Awards" */
 #awards table {
-    width: 100%;
+    width: 80%; 
     border-collapse: collapse;
     margin-top: 20px;
-    background-color: #c1a17f; /* Колір фону таблиці (такий же, як і фон блоку) */
+    background-color: #c1a17f; 
+    overflow-x: auto; 
+    margin-left: auto; /* Центруємо таблицю від лівого краю */
+    margin-right: auto; /* Центруємо таблицю від правого краю */
 }
 
+
 #awards th, #awards td {
-    border: 1px solid #000; /* Чорні бордюри для комірок */
+    border: 2px solid #000; 
     padding: 8px;
     text-align: left;
 }
@@ -179,10 +183,12 @@ li q {
 }
 
 #awards tbody tr:nth-child(even) {
-    background-color: transparent; /* Залиште парні рядки без фонового кольору */
+    background-color: transparent; 
 }
 
 #awards tbody tr:hover {
-    background-color: transparent; /* Залиште ефект наведення без фонового кольору */
+    background-color: transparent; 
 }
+
+
 
