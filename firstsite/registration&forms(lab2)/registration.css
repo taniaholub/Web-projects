@@ -1,0 +1,142 @@
+/* Updated CSS with additional styling */
+.content {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.content form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.content label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.content input[type="text"],
+.content input[type="password"],
+.content input[type="email"],
+.content textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.content button {
+    background-color: #2b1a0bc9;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.content button:hover {
+    background-color: #846349;
+}
+
+body {
+    background-color: #ab8b6a;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #2b1a0bc9;
+    color: #fff;
+    padding: 8px 0;
+}
+
+title {
+    display: flex;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav .nav-item {
+    font-family: 'Calibri';
+    margin-right: 140px; /* відстань від кнопок */
+    padding: 10px 20px; /* розмір background */
+}
+
+nav .nav-item a {
+    font-size: 18px; /* Збільшення розміру шрифту для тексту кнопок */
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.logo img {/* параметри логотипу */
+    display: block;
+    margin: 0 auto;
+    width: 150px;
+}
+
+main {
+    text-align: center;
+}
+
+.hero {
+    background-color: #b7946f;
+    background-image: url('https://s1.ticketm.net/dam/a/16b/54be164f-49f9-4fc2-b0a9-5e7d3833f16b_1439751_TABLET_LANDSCAPE_LARGE_16_9.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding: 225px 0;
+}
+
+h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 20px; /* Розмір шрифту */
+    color: #2b1a0b; /* Колір тексту */
+    background-color: #fff8f2; /* Колір фону */
+    padding: 10px 20px; /* Відступи в тексті */
+    display: inline-block; /* Встановлення блока */
+    border: 1px solid #e6e6e6; /* Границя */
+    border-radius: 4px; /* Закруглені кути */
+    margin-bottom: 20px; /* Відступ вниз */
+    text-align: left; /* Додавання вирівнювання тексту */
+}
+
+li {
+margin-bottom: 15px;
+border-bottom: 1px solid #ddd; /* Додавання бордеру між пунктами */
+padding-bottom: 15px; /* Відступ знизу для кращого вигляду */
+}
+
+p {
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+
+footer {
+    background-color: #2b1a0bc9;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+

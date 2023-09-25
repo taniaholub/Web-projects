@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon"
+        href="C:/Users/Тетяна/Documents/FE-projects/Web-projects/firstsite/site appearance/images&icons/billie.ico">
+    <link rel="stylesheet" href="registration.css">
+    <title>Billie Eilish - Forms</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li class="nav-item"><a href="index.html">Home</a></li>
+                <li class="nav-item"><a href="#login">Login</a></li>
+                <li class="nav-item"><a href="#registration">Registration</a></li>
+                <li class="nav-item"><a href="#feedback">Feedback</a></li>
+            </ul>
+        </nav>
+
+        <div class="logo">
+            <img src="https://www.billieeilish.com/files/2022/07/logo.png" alt="Billie Eilish Logo">
+        </div>
+    </header>
+
+    <!-- Форма входу -->
+    <section id="login" class="content">
+        <h2>Login</h2>
+        <form action="login.php" method="POST">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+            <br>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+            <br>
+            <button type="submit">Login</button>
+        </form>
+    </section>
+
+    <!-- Форма реєстрації -->
+    <section id="registration" class="content">
+        <h2>Registration</h2>
+        <form action="register.php" method="POST">
+            <label for="newUsername">Username:</label>
+            <input type="text" id="newUsername" name="newUsername" required>
+            <label for="newEmail">Email:</label>
+            <input type="email" id="newEmail" name="newEmail" required>
+            <label for="newPhonenumber">Phone-number:</label>
+            <input type="password" id="newPassword" name="newPassword" required>
+            <br>
+            <label for="newPassword">Password:</label>
+            <input type="password" id="newPassword" name="newPassword" required>
+            <br>
+            <button type="submit">Register</button>
+            <!-- Select country -->
+            <label for="country">Select Country:</label>
+            <select id="country" name="country">
+                <option value="usa">USA</option>
+                <option value="canada">Canada</option>
+                <option value="uk">UK</option>
+            </select>
+        </form>
+    </section>
+
+    <!-- Форма зворотного зв'язку -->
+    <section id="feedback" class="content">
+        <h2>Contact Us</h2>
+        <form action="submit_feedback.php" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <br>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            <br>
+            <button type="submit">Submit</button>
+            <!-- Вибір пріорітетності -->
+            <fieldset>
+                <legend>Additional Information</legend>
+                <label for="priority">Priority:</label>
+                <input type="radio" id="priority" name="priority" value="high"> High
+                <input type="radio" id="priority" name="priority" value="medium"> Medium
+                <input type="radio" id="priority" name="priority" value="low"> Low
+            </fieldset>
+            <!-- Datalist element -->
+            <label for="suggestions">Suggestions:</label>
+            <input list="suggestions" id="suggestions" name="suggestions">
+            <datalist id="suggestions">
+                <option value="Website design">
+                <option value="Customer service">
+                <option value="Product improvement">
+            </datalist>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Billie Eilish</p>
+    </footer>
+</body>
+
+</html>
