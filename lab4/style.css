@@ -1,0 +1,43 @@
+body {
+    min-width: 320px;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 400;
+    color: #000;
+    background-color: #9837d9;
+    display: flex;
+    flex-direction: column; /* Зміна напрямку відображення на колонки */
+    align-items: center;
+    justify-content: center;
+    height: 100vh; 
+}
+
+h1, p {
+    margin: 10px 0; /* Зменшення відстані вгорі і внизу */
+}
+
+th {
+    text-align: center;
+}
+
+td {
+    padding: 5px 20px ; /* Доданий відступ для тексту в таблиці */
+}
+table {
+    min-width: 600px;
+    padding: 20px;
+    margin: 20px;
+    border: 2px solid rgb(216, 204, 226);
+    border-radius: 5px;
+    text-align: left;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 400;
+    color: #fff;
+    background-color: #000;
+}
