@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tania Holub</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <header>
+        <h1>Група: ТР-25 <span id="group"></span></h1>
+        <h1>ПІБ: Голуб Тетяна Дмитрівна <span id="fullName"></span></h1>
+        <h1>Варіант 4, завдання: Блочна модель і позиціонування <span id="studentVariant"></span></h1>
+    </header>
+
+    <main>
+        <section class="hidden modal">
+            <div class="quiz_inner">
+                <div class="flex">
+                    <h2>Введіть ПІБ та групу</h2>
+                    <form>
+                        <input type="text" class="login_input" placeholder="ПІБ" name="name">
+                        <input type="text" class="login_input" placeholder="Група" name="group">
+                    </form>
+                </div>
+            </div>
+            <button class="submit_btn" id="submit_btn">Почати</button>
+        </section>
+        <div class="overlay hidden"></div>
+        <button class="login_btn">Розпочати тестування</button>
+    </main>
+
+</body>
+</html>
